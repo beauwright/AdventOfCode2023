@@ -15,6 +15,7 @@ class DiceScanner(private val file: String) {
             }
         }
     }
+
     fun scanLines() {
         readFile()
         for (line in lines) {
@@ -33,7 +34,7 @@ class DiceScanner(private val file: String) {
                     // Skip over ","
                     linePos++
                 } else if (line[linePos] == ';') {
-                    // Skip over ","
+                    // Skip over ";"
                     linePos++
                 } else if (line[linePos].isWhitespace()) {
                     // Skip over whitespace
