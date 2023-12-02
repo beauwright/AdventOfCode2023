@@ -6,4 +6,4 @@ My solutions for each day's Advent of Code challenges, using a variety of progra
 - [a dirty Python script for part 2](./Day1/Part2.py)
 
 ## Day 2
-- [Kotlin for both parts](./Day2/)
+- [Kotlin for both parts](./Day2/src/main/kotlin/Main.kt)
